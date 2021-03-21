@@ -1,0 +1,3 @@
+TEXT_RECOG:
+  DEEP_TEXT: True
+  MORAN: False

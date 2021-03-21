@@ -1,0 +1,2 @@
+from src.Face_Detection.detect_face_mtcnn import face_detect_image
+from src.CRAFT.craft_predict import craft_text_detect

@@ -1,0 +1,20 @@
+PIPELINE:
+  # text recog
+  DEEPTEXT: False
+  MORAN: True
+  DEEPTEXT_MODEL_PATH: 'models/TPS-ResNet-BiLSTM-Attn.pth'
+  MORAN_MODEL_PATH: 'models/moran_model.pth'
+
+  # text detection
+  TRAINED_MODEL: 'models/craft_mlt_25k.pth'
+  TEXT_THRESHOLD: 0.7
+  LOW_TEST: 0.4
+  LINK_THRESHOLD: 0.4
+  CUDA: False
+  CANVAS_SIZE: 1280
+  MAG_RATIO: 1.5
+  POLY: False
+  SHOW_TIME: False
+  TEST_FOLDER: './image'
+  REFINE: FALSE
+  REFINER_MODEL: 'model/craft_refiner_CTW1500.pth'
